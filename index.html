@@ -1,89 +1,160 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Campanha Ycaro 22 e Gabriel - Líder e Vice de Turma</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campanha Ycaro e Gabriel</title>
+
+    <!-- Favicon padrão (tamanho comum para navegadores) -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    
+    <!-- Favicon para dispositivos Apple (iPhones, iPads, etc) -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    
+    <!-- Favicon para navegadores com preferências por PNG (tamanhos variados) -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    
+    <!-- Favicon para dispositivos Android ou aplicativos Web -->
+    <link rel="icon" sizes="192x192" href="images/android-chrome-192x192.png">
+
+    <!-- Favicon para dispositivos maiores (exemplo: tablets) -->
+    <link rel="icon" sizes="512x512" href="images/android-chrome-512x512.png">
+
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+     <!-- Bootstrap Icons -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="campaign.css">
 </head>
 <body>
-  <!-- Cabeçalho e Navegação -->
-  <header>
-    <nav class="navbar">
-      <ul>
-        <li><a href="#sobre">Sobre a Campanha</a></li>
-        <li><a href="#propostas">Propostas</a></li>
-        <li><a href="#depoimentos">Depoimentos</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
-    <!-- Seção Heroica -->
-    <div class="hero">
-      <h1>Vote 22: Ycaro e Gabriel</h1>
-      <p class="slogan">A união que vai transformar nossa turma!</p>
-      <a href="#propostas" class="cta-button">Conheça Nossas Propostas</a>
-    </div>
-  </header>
+    <header>
+        <div class="header-content">
+            <h1>Vote 22: Ycaro e Gabriel</h1>
+            <p>A escolha certa para a liderança da turma!</p>
+            <a href="#motivos" class="cta-button">Por que votar em nós?</a>
+        </div>
+    </header>
 
-  <!-- Conteúdo Principal -->
-  <main>
-    <!-- Seção Sobre a Campanha -->
-    <section id="sobre" class="about">
-      <h2>Sobre a Campanha</h2>
-      <p>Ycaro e Gabriel são a dupla ideal para liderar a nossa turma. Com dedicação, responsabilidade e grandes ideias, eles querem criar um ambiente de aprendizado mais unido e colaborativo. Acreditam que todos podem crescer e aprender melhor em uma sala de aula mais organizada e harmoniosa. Esta é uma campanha focada em resultados, amizade e respeito!</p>
+    <section id="sobre">
+        <h2>Sobre Ycaro e Gabriel</h2>
+        <div class="bio">
+            <p><strong>Ycaro</strong> e <strong>Gabriel</strong> são conhecidos pela sua dedicação aos estudos e pela habilidade de manter o equilíbrio entre a diversão e a responsabilidade. Com uma visão clara de como unir a turma e promover um ambiente de respeito e colaboração, eles são candidatos perfeitos para representar a classe.</p>
+            <p>Ycaro, com suas ideias inovadoras e liderança natural, se destaca por sua capacidade de ouvir e encontrar soluções. Gabriel, sempre com disposição para ajudar, é conhecido por seu espírito esportivo e companheirismo. Juntos, eles formam uma dupla imbatível!</p>
+        </div>
     </section>
 
-    <!-- Seção Propostas -->
-    <section id="propostas" class="proposals">
-      <h2>Nossas Propostas</h2>
-      <ul>
-        <li><strong>Melhorar o ambiente de estudo :</strong> Trabalhar por uma sala de aula mais organizada.</li>
-        <li><strong>Promover mais união entre os colegas:</strong> Promover a cooperação e o trabalho em equipe.</li>
-        <li><strong>Dar suporte acadêmico:</strong> Organizar grupos de estudo para ajudar todos a melhorar suas notas e entender melhor os conteúdos.</li>
-        <li><strong>Representar os interesses de todos:</strong> Ser a voz ativa da turma, garantindo que as necessidades de todos os colegas sejam ouvidas pela escola.</li>
-      </ul>
+    <section id="motivos">
+        <h2>Por que votar em Ycaro e Gabriel?</h2>
+        <div class="reasons">
+            <div class="reason">
+                <h3>1. Liderança e Trabalho em Equipe</h3>
+                <p>Ycaro e Gabriel já demonstraram sua capacidade de trabalhar em grupo e liderar projetos. Eles sabem como unir a turma e garantir que todos se sintam incluídos.</p>
+            </div>
+            <div class="reason">
+                <h3>2. Ideias Inovadoras</h3>
+                <p>Com planos de melhorar o ambiente da nossa turma, eles têm muitas ideias para tornar a vida escolar mais interessante e participativa.</p>
+            </div>
+            <div class="reason">
+                <h3>3. Responsabilidade e Compromisso</h3>
+                <p>Ambos são conhecidos por seu senso de responsabilidade e compromisso com o sucesso da turma. Você pode contar com eles para resolver problemas e representar os interesses de todos.</p>
+            </div>
+        </div>
     </section>
 
-    <!-- Seção de Depoimentos
-    <section id="depoimentos" class="testimonials">
-      <h2>O que nossos colegas dizem</h2>
-      <div class="testimonial">
-        <p><strong>Ana Clara, colega:</strong> "Ycaro e Pedro sempre foram dedicados e atenciosos. Tenho certeza de que, com eles na liderança, nossa sala será um lugar ainda melhor para estudar e conviver."</p>
-      </div>
-      <div class="testimonial">
-        <p><strong>João Lucas, colega:</strong> "Conheço o Ycaro e sei que ele é uma pessoa em quem podemos confiar. Ele sempre tem boas ideias e está disposto a ajudar."</p>
-      </div>
-      <div class="testimonial">
-        <p><strong>Maria Eduarda, colega:</strong> "Acho que com Ycaro e Pedro na liderança, nossa turma vai se sentir mais unida e organizada. Eles têm tudo para fazer um ótimo trabalho."</p>
-      </div>
+    <section id="social">
+        <h2>Siga-nos nas Redes Sociais</h2>
+        <div class="d-flex justify-content-center gap-3">
+            <a href="https://www.instagram.com/voteycaro22" target="_blank" class="text-blue">
+                <i class="bi bi-instagram" style="font-size: 2rem;">Instagram</i>
+            </a>
+            <a href="https://www.youtube.com/@voteycaro22" target="_blank" class="text-blue">
+                <i class="bi bi-youtube" style="font-size: 2rem;">Youtube</i>
+            </a>
+        </div>
     </section>
--->
-
-    <!-- Seção de Contato -->
-    <section id="contato" class="contact">
-      <h2>Entre em Contato</h2>
-      <p>Tem uma sugestão ou pergunta sobre a campanha? Entre em contato conosco:</p>
-      <form action="#" method="post" class="contact-form">
-        <label for="name">Nome:</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="message">Mensagem:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
-
-        <button type="submit" class="cta-button">Enviar Mensagem</button>
-      </form>
+    
+    <section id="votacoes">
+        <div class="container">
+            <h2>Estatísticas de Votações Anteriores</h2>
+            
+            <!-- Seção para o 5º Ano (2022) -->
+            <h3>2022 (5º Ano)</h3>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Candidato</th>
+                        <th>Votos</th>
+                        <th>Porcentagem</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ycaro</td>
+                        <td>9</td>
+                        <td>56,25%</td>
+                    </tr>
+                    <tr>
+                        <td>Pedro Teles</td>
+                        <td>4</td>
+                        <td>25%</td>
+                    </tr>
+                    <tr>
+                        <td>Mirelle</td>
+                        <td>3</td>
+                        <td>18,75%</td>
+                    </tr>
+                </tbody>
+            </table>
+    
+            <!-- Seção para o 7º Ano (2024) -->
+            <h3>2024 (7º Ano)</h3>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Candidato</th>
+                        <th>Votos</th>
+                        <th>Porcentagem</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Heloísa</td>
+                        <td>9</td>
+                        <td>30%</td>
+                    </tr>
+                    <tr>
+                        <td>Paula</td>
+                        <td>9</td>
+                        <td>30%</td>
+                    </tr>
+                    <tr>
+                        <td>Ycaro</td>
+                        <td>7</td>
+                        <td>23,33%</td>
+                    </tr>
+                    <tr>
+                        <td>Gabriel</td>
+                        <td>5</td>
+                        <td>16,67%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </section>
-  </main>
+    
 
-  <!-- Rodapé -->
-  <footer>
-    <p>&copy; 2024 Ycaro Miguel e Gabriel. Todos os direitos reservados.</p>
-  </footer>
+    <section id="video">
+        <h2>Último Vídeo Postado</h2>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gGI3jO1OUJo?si=vl5y7UIZHG2_F7K8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
 
-  <script src="script.js"></script>
+    <footer>
+        <p>Ycaro e Gabriel - 2024</p>
+    </footer>
+
+    <script src="campaign.js"></script>
 </body>
 </html>

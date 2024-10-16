@@ -1,161 +1,185 @@
-/* Fonte Roboto */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* campaign.css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-/* Estilos Globais */
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #f0f0f0;
-  color: #333;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
 }
 
-h1, h2 {
-  color: #0056b3;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-/* Estilos da Navbar */
-.navbar {
-  background-color: #0056b3;
-  padding: 1rem;
-  text-align: center;
-}
-
-.navbar ul {
-  margin: 0;
-  padding: 0;
-}
-
-.navbar ul li {
-  display: inline;
-  margin: 0 15px;
-}
-
-.navbar ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.1em;
-}
-
-.navbar ul li a:hover {
-  text-decoration: underline;
-}
-
-/* Estilos do Header e Hero Section */
 header {
-  text-align: center;
-  background-color: #fff;
-  padding-bottom: 40px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #42C074;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
 }
 
-.logo-container {
-  margin-top: 20px;
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-.logo {
-  width: 150px;
-  height: auto;
+h1 {
+    font-size: 36px;
 }
 
-.hero {
-  background-image: url('banner.jpg');
-  background-size: cover;
-  background-position: center;
-  padding: 100px 20px;
-  color: white;
-}
-
-.slogan {
-  font-style: italic;
-  font-size: 1.5em;
-  margin-bottom: 20px;
+p {
+    font-size: 18px;
+    margin: 10px 0;
 }
 
 .cta-button {
-  background-color: #ffcc00;
-  color: #333;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-weight: bold;
-  text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 .cta-button:hover {
-  background-color: #e6b800;
-}
-
-/* Seções */
-main {
-  padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-  background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #0056b3;
 }
 
 section {
-  margin-bottom: 40px;
+    padding: 60px 20px;
+    text-align: center;
 }
 
-.about p, .proposals ul, .testimonials, .contact-form {
-  margin-top: 20px;
-  font-size: 1.1em;
+#sobre {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilos da seção de Depoimentos */
-.testimonial {
-  background-color: #f9f9f9;
-  border-left: 4px solid #0056b3;
-  padding: 10px;
-  margin-bottom: 20px;
+#sobre h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
 }
 
-/* Estilos da seção de Contato */
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  max-width: 600px;
-  margin: 0 auto;
+.bio {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #555;
 }
 
-.contact-form label {
-  margin-bottom: 5px;
-  font-weight: bold;
+#motivos {
+    background-color: #e9ecef;
+    padding: 60px 20px;
 }
 
-.contact-form input, .contact-form textarea {
-  padding: 10px;
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+#motivos h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
 }
 
-.contact-form button {
-  background-color: #0056b3;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  font-weight: bold;
-  cursor: pointer;
+.reasons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
-.contact-form button:hover {
-  background-color: #003d80;
+.reason {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilos do Rodapé */
+.reason h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.reason p {
+    color: #555;
+}
+
+#cta {
+    padding: 60px 20px;
+    background-color: #42C074;
+    color: white;
+}
+
+#cta h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
 footer {
-  background-color: #0056b3;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  margin-top: 40px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+#votacoes {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+#votacoes h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+
+#votacoes h3 {
+    margin-top: 30px; /* Adiciona espaço acima de cada seção */
+    margin-bottom: 10px; /* Adiciona espaço abaixo do título */
+    font-size: 1.5rem;
+    color: #007bff; /* Azul do Bootstrap */
+}
+
+.table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #007bff; /* Azul do Bootstrap */
+    color: #ffffff;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2; /* Cor de fundo para linhas ímpares */
+}
+
+.table tbody tr:hover {
+    background-color: #e9ecef; /* Cor de fundo ao passar o mouse */
+    transition: background-color 0.3s ease;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .reasons {
+        grid-template-columns: 1fr;
+    }
 }
